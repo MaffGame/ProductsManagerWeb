@@ -1,0 +1,19 @@
+.options{
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    background-color: #d9d9d9;
+    height: 100%;
+    width: 5rem;
+}
+
+.option{
+    padding: 0.5rem;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    background-color: black;
+    width: 2.5rem;
+    height: 2.5rem;
+}

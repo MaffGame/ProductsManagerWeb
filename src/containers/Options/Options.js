@@ -1,12 +1,12 @@
 import React from "react";
-import './Options.css';
+import "./Options.css";
 
 function Options({ children, ...props }) {
-    return (
-      <div className="options" {...props}>
-          {children}
-      </div>
-    )
-  }
+  return (
+    <div className="options" {...props}>
+      {children}
+    </div>
+  );
+}
 
 export default Options;

@@ -1,27 +1,29 @@
-.options{
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items: center;
-    height: 25%;
-    width: 5rem;
+.options {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  height: 25%;
+  width: 5rem;
 }
 
-.option{
-    padding: 0.5rem;
-    justify-content: center;
-    align-self: center;
-    align-items: center;
-    display: flex;
-    background-color: black;
-    width: 2.5rem;
-    height: 2.5rem;
-    border: none;
+.option {
+  padding: 0.5rem;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  display: flex;
+  background-color: black;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: none;
 }
 
-.option:hover, .option:active, .option:focus{
-    background-color: black;
-    color: white;
+.option:hover,
+.option:active,
+.option:focus {
+  background-color: black;
+  color: white;
 }

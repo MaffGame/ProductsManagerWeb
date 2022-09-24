@@ -1,94 +1,93 @@
-.header{
-    background-color: white;
-    color: black;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1rem;
-    height: 3.125rem;
-    box-shadow:0px 10px 30px 10px #d9d9d9;
+.header {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  height: 3.125rem;
+  box-shadow: 0px 10px 30px 10px #d9d9d9;
 }
 
-.header-start{
-    display: flex;
-    justify-self: flex-start;
-    align-items: stretch;
-    gap: 1rem;
-    padding: 0 1rem;
+.header-start {
+  display: flex;
+  justify-self: flex-start;
+  align-items: stretch;
+  gap: 1rem;
+  padding: 0 1rem;
 }
 
-.header-end{
-    display: flex;
-    justify-self: flex-end;
-    align-items: stretch;
-    gap: 1rem;
-    padding: 0 1rem;
+.header-end {
+  display: flex;
+  justify-self: flex-end;
+  align-items: stretch;
+  gap: 1rem;
+  padding: 0 1rem;
 }
 
-.header-start span{
-    margin: 0;
-    align-self: center;
+.header-start span {
+  margin: 0;
+  align-self: center;
 }
 
-.header-start span svg{
-    height: 2rem;
-    width: 2rem;
+.header-start span svg {
+  height: 2rem;
+  width: 2rem;
 }
 
-.logo-title{
-    margin: 0;
-    align-self: center;
+.logo-title {
+  margin: 0;
+  align-self: center;
 }
 
-.family-btn{
-    color: black;
-    align-self: center;
-    align-items: center;
-    height: 2.5rem;
-    width: 9rem;
-    justify-content: center;
-    border-radius: 5px;
-    background-color: #d9d9d9;
-    border: none;
-    display: flex;
+.family-btn {
+  color: black;
+  align-self: center;
+  align-items: center;
+  height: 2.5rem;
+  width: 9rem;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  border: none;
+  display: flex;
 }
 
-.family-btn:hover{
-    color: black;
-    background-color: #d9d9d9;
+.family-btn:hover {
+  color: black;
+  background-color: #d9d9d9;
 }
 
-.family-btn:active{
-    color: black;
-    background-color:#d9d9d9;
+.family-btn:active {
+  color: black;
+  background-color: #d9d9d9;
 }
 
-.family-btn:focus{
-    color: black;
-    background-color:#d9d9d9;
+.family-btn:focus {
+  color: black;
+  background-color: #d9d9d9;
 }
 
-.family-btn a{
-    padding-left: 1rem;
-    padding-right: 1rem;
+.family-btn a {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.profile-btn{
-    align-self: center;
-    height: 2.5rem;
-    width: 2.5rem;
-    background-color:#d9d9d9;
-    border: none;
+.profile-btn {
+  align-self: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #d9d9d9;
+  border: none;
 }
 
-.profile-btn:hover{
-    background-color: #d9d9d9;
+.profile-btn:hover {
+  background-color: #d9d9d9;
 }
 
-.profile-btn:active{
-    background-color:#d9d9d9;
+.profile-btn:active {
+  background-color: #d9d9d9;
 }
 
-.profile-btn:focus{
-    background-color: #d9d9d9;
+.profile-btn:focus {
+  background-color: #d9d9d9;
 }
-

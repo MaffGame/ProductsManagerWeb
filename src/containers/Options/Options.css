@@ -1,9 +1,11 @@
 .options{
-    justify-content: center;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-content: space-around;
     align-items: center;
-    background-color: #d9d9d9;
-    height: 100%;
+    height: 25%;
     width: 5rem;
 }
 
@@ -16,4 +18,10 @@
     background-color: black;
     width: 2.5rem;
     height: 2.5rem;
+    border: none;
+}
+
+.option:hover, .option:active, .option:focus{
+    background-color: black;
+    color: white;
 }
